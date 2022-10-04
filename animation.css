@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#sky{
+    position: fixed;
+    height: 78vh;
+    width: 100vw;
+    top: 0;
+}
+#water{
+    position: fixed;
+    bottom: 0px;
+    height: 60vh;
+    width: 100vw;
+}
+#boat{
+    position: relative;
+    top: 111px;
+    object-position: center;
+    z-index: 1;
+    height: 40vh;
+    width: 18vw;
+}
