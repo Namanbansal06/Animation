@@ -1,6 +1,5 @@
 moving_cloud2();
 moving_cloud1();
-//moving_boat();
 function moving_cloud2() {
     var cloud_element1 = document.getElementById('cloud1');
     var x1 = 0;
@@ -36,7 +35,7 @@ function moving_cloud1() {
 }
 
 var a=0;
-setInterval(anim_bo,4);
+setInterval(anim_bo,15);
 
 function anim_bo(){
     var pointer=document.getElementById("boat");
@@ -46,6 +45,7 @@ function anim_bo(){
         clearInterval(anim_bo);
         pointer.src="image/revertboat.png";
         document.getElementById("sky").src="image/nightsky2.png";
+        document.getElementById("moon").src="image/moon.png";
     }
     else{
     pointer.style.marginLeft= a + "px";}

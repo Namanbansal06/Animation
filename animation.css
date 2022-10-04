@@ -4,7 +4,7 @@
 }
 #sky{
     position: fixed;
-    height: 78vh;
+    height: 100vh;
     width: 100vw;
     top: 0;
     z-index: 0;
@@ -40,15 +40,14 @@
     height: 125px;
     z-index: 2;
 }
-/* #fish{
+#cloud3{
     position: fixed;
-    bottom: 0px;
-    z-index: 3;
-    height: 550px;
-    width: 500px;
-    top: 100px;
-    left: 780px;
-} */
+    top: 40px;
+    height: 125px;
+    width: 300px;
+    z-index: 1;
+    left: 400px;
+}
 #island{
     position: fixed;
     top: 118px;
@@ -64,4 +63,14 @@
     width: 100px;
     z-index: 3;
     left: 180px;
+}
+#moon{
+    z-index: 0;
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    left: 500px;
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
