@@ -7,12 +7,14 @@
     height: 78vh;
     width: 100vw;
     top: 0;
+    z-index: 0;
 }
 #water{
     position: fixed;
     bottom: 0px;
     height: 60vh;
     width: 100vw;
+    z-index: 1;
 }
 #boat{
     position: fixed;
@@ -20,7 +22,7 @@
     z-index: 1;
     height: 40vh;
     width: 18vw;
-    left: 550px;
+    left: 210px;
 }
 #cloud1{
     position: fixed;
@@ -37,4 +39,29 @@
     width: 300px;
     height: 125px;
     z-index: 2;
+}
+/* #fish{
+    position: fixed;
+    bottom: 0px;
+    z-index: 3;
+    height: 550px;
+    width: 500px;
+    top: 100px;
+    left: 780px;
+} */
+#island{
+    position: fixed;
+    top: 118px;
+    z-index: 3;
+    width: 300px;
+    height: 200px;
+    left: -50px;
+}
+#fisherman{
+    position: fixed;
+    top: 215px;
+    height: 80px;
+    width: 100px;
+    z-index: 3;
+    left: 180px;
 }

@@ -1,6 +1,6 @@
 moving_cloud2();
 moving_cloud1();
-moving_boat();
+//moving_boat();
 function moving_cloud2() {
     var cloud_element1 = document.getElementById('cloud1');
     var x1 = 0;
@@ -35,15 +35,18 @@ function moving_cloud1() {
     }
 }
 
-function moving_boat() {
-    var boating = document.getElementById('boat');
-    var x1 = 0;
-    var x2 = 520;
-    var change = 0;
-    setInterval(animate, 100);
-    function animate() {
-        change += 0.054;
-        x1 = 550 + Math.sin(change) * x2;
-        boating.style.left = x1 + "px";
+var a=0;
+setInterval(anim_bo,4);
+
+function anim_bo(){
+    var pointer=document.getElementById("boat");
+    a=a+1;
+    if(a>=865)
+    {
+        clearInterval(anim_bo);
+        pointer.src="image/revertboat.png";
+        document.getElementById("sky").src="image/nightsky2.png";
     }
+    else{
+    pointer.style.marginLeft= a + "px";}
 }
