@@ -15,10 +15,26 @@
     width: 100vw;
 }
 #boat{
-    position: relative;
+    position: fixed;
     top: 111px;
-    object-position: center;
     z-index: 1;
     height: 40vh;
     width: 18vw;
+    left: 550px;
+}
+#cloud1{
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    width: 300px;
+    height: 125px;
+    z-index: 1;
+}
+#cloud2{
+    position: fixed;
+    top: 10px;
+    left: 80px;
+    width: 300px;
+    height: 125px;
+    z-index: 2;
 }
