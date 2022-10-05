@@ -22,7 +22,8 @@
     z-index: 1;
     height: 40vh;
     width: 18vw;
-    left: 210px;
+    /* left: 210px; */
+    left: 650px;
 }
 #cloud1{
     position: fixed;
@@ -73,4 +74,43 @@
     border: 0;
     padding: 0;
     margin: 0;
+}
+#grass{
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    bottom: 0;
+    padding: 0%;
+    left: 980px;
+    top: 380px;
+}
+#grass2{
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    bottom: 0;
+    top: 380px;
+    z-index: 1;
+}
+#fish1{
+    position: fixed;
+    z-index: 1;
+    bottom: 100px;
+    width: 55px;
+    right: 0;
+}
+#seahorse{
+    position: fixed;
+    z-index: 1;
+    bottom: 150px;
+    width: 70px;
+    left: 0;
+}
+#fish2{
+    position: fixed;
+    z-index: 2;
+    bottom: 0px;
+    width: 55px;
+    right: 50%;
 }
